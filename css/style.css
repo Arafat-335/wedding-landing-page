@@ -1,0 +1,379 @@
+.navbar-brand {
+    font-family: "Great Vibes", cursive;
+}
+
+.nav-link {
+    font-family: "Open Sans", !important;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #000;
+}
+
+.nav-item>.active {
+    border-bottom: 1px solid #000;
+}
+
+.hero {
+    background-image: url(../img/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero-subtitle1 {
+    color: #fff;
+    border-right: 2px solid #fff !important;
+    border-left: 2px solid #fff !important;
+
+}
+
+.Save-the-date {
+    font-family: "Amatic SC";
+    padding-top: 200px;
+    font-size: 10rem;
+}
+
+.Joseph {
+    font-family: "Great vibes";
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hello {
+    font-family: "Great Vibes";
+    font-size: 3rem;
+}
+
+.We-invite-you {
+    font-family: "Open Sens";
+    font-size: 1.5rem;
+}
+
+.bride {
+    margin-left: -50px;
+}
+
+.banner1 {
+    background-image: url(../img/countdown-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner1 h2 {
+    color: #ffffff;
+    font-family: "Great Vibes";
+    font-size: 70px;
+    padding: 20px;
+}
+
+.banner1 p {
+    color: #ffffff;
+}
+
+.banner1 h4 {
+    color: #ffffff;
+    font-family: "Great Vibes";
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.time {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.days {
+    color: #ffffff;
+}
+
+.until-we {
+    color: #ffffff;
+    font-family: "Great Vibes";
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.seconds {
+    margin-left: 450px;
+    margin-top: -80px;
+}
+
+
+/* start time line */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.timeline .container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+}
+
+.text-box {
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.left-container {
+    left: -30%;
+}
+
+.right-container {
+    left: 30%;
+}
+
+.timeline-img {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container img {
+    left: -75px;
+}
+
+.left-container img {
+    right: -76px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 0;
+}
+
+.text-box h2 {
+    font-weight: 600px;
+}
+
+.text-box small {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+
+.right-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+
+/* Wedding gallery section */
+.nav-link {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #555;
+    padding-bottom: 12px;
+}
+
+.active-tab {
+    color: #000 !important;
+    border-bottom: 3px solid #000;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+    border-bottom: 3px solid #000;
+}
+
+
+
+/* ============ START - CAROUSEL ============== */
+/* Testimonial Carousel Styles */
+.testimonial-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f0f0f0;
+}
+
+.testimonial-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.testimonial-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #999;
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+/* Carousel Indicators Custom Style */
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    margin: 0 8px;
+}
+
+.carousel-indicators .active {
+    background-color: #666;
+}
+
+/* Remove default carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+/* Carousel Indicators - Horizontal Bar Style */
+.carousel-indicators {
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #d3d3d3;
+    border: none;
+    margin: 0 5px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #333333;
+    width: 60px;
+}
+
+.rsvp-title {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.btn-add-guest {
+    padding: 5px;
+    background-color: white;
+}
+
+.submit {
+    padding: 14px 42px !important;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.guest:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.guest {
+    padding: 6px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* ============ END - CAROUSEL ============== */
+
+
+
+
+
+
+/* ==============start grid========= */
+.misenory{
+    background: #fff;
+    padding: 10px;
+}
+.misenory img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grid-wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 10fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.Just-married{
+    background-image: url(../img/banner-bottom.jpg);
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+}
+
+
